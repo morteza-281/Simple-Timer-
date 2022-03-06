@@ -7,9 +7,9 @@ class App extends React.PureComponent{
 
     componentDidMount() {
         console.log('working componentDidMount')
-          x=setInterval(()=>{
-            this.setState({
-                time : this.state.time -1
+            x=setInterval(()=>{
+                this.setState({
+                    time : this.state.time -1
             })
         }, 100)
 
@@ -27,6 +27,7 @@ class App extends React.PureComponent{
             <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, qui?</p>
                 <p>{this.state.time}</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, maxime!</p>
             </div>
         );
     }
